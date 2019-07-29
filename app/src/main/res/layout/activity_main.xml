@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/MainRellayoId">
+
+    <Button
+        android:id="@+id/etPAsaDatid4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPAsaDatid3"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/etPAsaDatid"
+        android:layout_toRightOf="@+id/etPAsaDatid"
+        android:onClick="PasaDato"
+        android:text="Obrir" />
+
+    <Button
+        android:id="@+id/etPAsaDatid3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPAsaParmid"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="132dp"
+        android:layout_toEndOf="@+id/etPAsaDatid"
+        android:layout_toRightOf="@+id/etPAsaDatid"
+        android:onClick="PasaDato"
+        android:text="Obrir" />
+
+    <Button
+        android:id="@+id/etPAsaDatid2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPAsaParmid"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="51dp"
+        android:layout_toEndOf="@+id/etPAsaDatid"
+        android:layout_toRightOf="@+id/etPAsaDatid"
+        android:onClick="PasaDato"
+        android:text="Obrir" />
+
+    <EditText
+        android:id="@+id/etPAsaParmid"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="69dp"
+        android:hint="Escriu aqui"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/etPAsaDatid"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPAsaParmid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="51dp"
+        android:onClick="PasaDato"
+        android:text="Obrir" />
+
+    <Button
+        android:id="@+id/etPAsaNavegid"
+        android:layout_width="164dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/etPAsaDatid"
+        android:layout_alignStart="@+id/etPAsaDatid"
+        android:layout_alignLeft="@+id/etPAsaDatid"
+        android:layout_marginStart="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="33dp"
+        android:onClick="navegar"
+        android:text="Navegar" />
+
+    <Button
+        android:id="@+id/etPAsaMap1id"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPAsaNavegid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="36dp"
+        android:onClick="mapeador"
+        android:text="Mapeas1" />
+
+
+
+
+</RelativeLayout>
